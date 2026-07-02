@@ -83,6 +83,7 @@ nav .row{
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;flex-shrink:0}
 .brand .nm{font-weight:800;font-size:17px;letter-spacing:-.03em;color:var(--ink)}
 .brand .rl{font-family:var(--mono);font-size:10.5px;color:var(--ink-faint);letter-spacing:.04em}
+.brand .ver{font-family:var(--mono);font-size:9px;color:var(--ink-faint);opacity:.6;letter-spacing:.04em;margin-left:-4px}
 @media(max-width:420px){.brand .rl{display:none}}
 .nav-links{display:flex;gap:2px;list-style:none;align-items:center}
 .nav-links a{
@@ -500,6 +501,7 @@ body.printing-resume .modal-bg .resume-section h4{color:#4f46e5!important}
     <a class="brand" href="#hero">
       <span class="nm">김수민</span>
       <span class="rl mono">Kim Sumin · Editor</span>
+      <span class="ver mono">v.1.0.0</span>
     </a>
     <button class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="메뉴 열기">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="7" x2="21" y2="7"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="17" x2="21" y2="17"/></svg>
