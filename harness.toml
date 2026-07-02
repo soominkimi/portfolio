@@ -1,0 +1,7 @@
+[project]
+name = "portfolio"
+
+[git]
+allow_auto_commit = true
+allow_auto_push = true
+protected_branches = []
